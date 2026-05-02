@@ -1,0 +1,66 @@
+Build a mobile-friendly interactive election guide web app using React and Tailwind CSS. 
+The app is a neutral, educational assistant that walks users through the full election 
+process: registration, nomination, campaigning, voting, counting, and result announcement. 
+Use a clean civic-themed UI with blues and whites. Set up the main layout with a header, 
+sidebar navigation, and a main content area.
+
+
+
+
+
+Add an interactive election timeline component. It should show 6 stages: 
+1) Voter Registration, 2) Candidate Nomination, 3) Campaigning, 4) Voting Day, 
+5) Vote Counting, 6) Result Announcement. Each stage should be clickable, 
+show a short description, key dates, and what action the user needs to take. 
+Highlight the current active stage. Make it visually clear with icons and progress indicators.
+
+
+
+Add an eligibility checker feature. Ask the user a series of questions: 
+age (18+?), citizenship status, residency, and whether they are registered. 
+Based on answers, show a clear result: eligible to vote, not eligible, 
+or needs to register first. Use a step-by-step form with simple yes/no buttons. 
+Style it to feel friendly and non-intimidating.
+
+
+
+Add a FAQ assistant panel on the right side. It should support quick-reply buttons 
+for common questions like: "How do I register?", "When is voting day?", 
+"What ID do I need?", "How are votes counted?". When a question is clicked, 
+show a clear, plain-language answer below. Include a text input for custom questions 
+that gives a canned helpful response if it matches known topics.
+
+
+
+
+Add a personal progress tracker so users can mark which steps they have completed 
+(e.g., "I've registered", "I know my polling station"). Store state in localStorage. 
+Show a progress bar at the top showing how election-ready they are (e.g., "3 of 5 steps done"). 
+Add a checklist card with checkboxes for each civic action.
+
+
+
+
+
+Make the entire app fully responsive for mobile screens. On small screens, 
+collapse the sidebar into a bottom navigation bar with icons. Ensure all 
+text is readable, buttons are tap-friendly (min 44px height), and the 
+timeline scrolls horizontally on mobile. Add smooth transitions between sections. 
+Use a clean sans-serif font like Inter. Keep the tone neutral and civic — 
+no party colors or political symbols.
+
+
+
+
+
+Add a hero section at the top of the app with the headline: "Your Election, Explained." 
+and subtext: "A simple guide to understanding and participating in the election process." 
+Include a "Get Started" button that scrolls to the timeline. Add a subtle animated 
+background with civic icons (ballot box, checkmark, flag) using CSS animations. 
+Keep it professional and welcoming.
+
+
+
+Add a dark mode toggle in the header. When enabled, switch the entire app to 
+a dark civic theme (dark navy background, white text, gold accents). 
+Save the preference to localStorage so it persists on refresh.
